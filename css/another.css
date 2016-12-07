@@ -93,6 +93,7 @@ div#footer  {
 
 div#gallery  {
               display: table;
+			  border-spacing: 12px;
              }
 
 div.tableRow  {

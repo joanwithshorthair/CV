@@ -4,9 +4,14 @@
             <meta charset="utf-8">
             <title>Another Me</title>
             <link rel="stylesheet" type="text/css" href="css/another.css">
+			<script type="text/javascript">
+			  function resizeSelfie() {
+			    document.getElementById("selfie").style.height =
+				document.body.clientHeight *1;
+				}
+			</script>
         </head>
-
-        <body>
+        <body onload="resizeSelfie();" onresize="resizeSelfie();">
             <div id="header">
                 <h1>Joan Dong</h1>
                 <p>Web Developer and Designer</p>
@@ -44,8 +49,8 @@
                 <div id="gallery">    
                     <div class="tableRow">
                         <div class="tableCell"><a href="https://joanwithshorthair.github.io/yellow/" target="new"><img id="yellow" src="images/yellow.jpg" alt="yellow"></a></div>
-                        <div class="tableCell"><a href="补全" target="new"><img id="myCV" src="补全" alt="my CV"></a></div>
-                        <div class="tableCell"><a href="补全" target="new"><img id="myBlog" src="补全" alt="my Blog"></a></div>
+                        <div class="tableCell"><a href="https://joanwithshorthair.github.io/CV/" target="new"><img id="myCV" src="images/resume.jpg" alt="my CV"></a></div>
+                        <div class="tableCell"><a href="https://joanwithshorthair.github.io/blog/" target="new"><img id="myBlog" src="images/blog.jpg" alt="my Blog"></a></div>
                     </div><!--tableRow-->
                         
                     <div class="tableRow">
